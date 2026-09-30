@@ -383,10 +383,3 @@ results = pd.DataFrame({
     "ROC-AUC": [roc_auc],
     "Train-Test Gap": [train_test_gap]
 })
-
-results.to_csv(
-    "outputs/results/decision_tree_results.csv",
-    index=False
-)
-
-print("\nResults saved successfully.")

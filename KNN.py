@@ -377,10 +377,3 @@ results = pd.DataFrame({
     "ROC-AUC": [roc_auc],
     "Train-Test Gap": [train_test_gap]
 })
-
-results.to_csv(
-    "outputs/results/knn_results.csv",
-    index=False
-)
-
-print("\nResults saved successfully.")

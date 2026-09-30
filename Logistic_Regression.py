@@ -383,9 +383,3 @@ results = pd.DataFrame({
     "Train-Test Gap": [train_test_gap]
 })
 
-results.to_csv(
-    "outputs/results/logistic_regression_results.csv",
-    index=False
-)
-
-print("\nResults saved successfully.")
